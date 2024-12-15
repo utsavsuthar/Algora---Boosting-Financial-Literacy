@@ -12,7 +12,7 @@ def geminiApp(prompt):
     import google.generativeai as genai
     from GeminiHist import data
 
-    genai.configure(api_key="AIzaSyA0-ftiGnQBYn1fP6eNafKIzVVCNKjZxrk")
+    genai.configure(api_key="YOUR API KEY")
 
 
     # Create the model
